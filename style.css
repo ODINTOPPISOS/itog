@@ -1,0 +1,122 @@
+.zxcNikita {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+    background-color: white;
+   
+
+}
+body {
+    margin: 0;                                                                                                                                   
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    /*background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Z5D5zxI4xvHSprT6Oq19MNtGmUOfu6gfjA&s") center center no-repeat fixed;*/
+	background-color: #0010f753;
+    background-size: cover;
+       
+    
+}     
+.title {
+	position: static;
+	background-color: #fff;
+}
+.title span {
+	font-size: 50px;
+	color: #fff;
+	background: #000000;
+	padding: 0 10px;
+	line-height: 56px;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone; 
+
+}
+.title::after {
+	position: absolute;
+	content: '';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	pointer-events: none;
+	background: linear-gradient(135deg, rgba(37,219,237) 0%,rgba(183,60,210) 100%);
+	mix-blend-mode: lighten;
+}   
+
+.product-card {
+	background-color: #fff;
+	border-radius: 8px;
+	width: 300px;
+	height: 345px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+.product-card img {
+	width: 250px;
+	height: 200px;
+	border-radius: 8px;
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.bass{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar111 {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar111 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar111 a:hover {
+    background: #ddd;
+    color: black;
+}
+p {
+	text-align: center;
+}
+

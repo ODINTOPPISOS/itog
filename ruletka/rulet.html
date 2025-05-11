@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>Колесо удачи</title>
+  <!-- используем всю ширину экрана -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- подключаем стили -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+   
+<!-- главный блок -->
+<div class="deal-wheel">
+  <!-- блок с призами -->
+  <ul class="spinner"></ul>
+  <!-- язычок барабана -->
+  <div class="ticker"></div>
+  <!-- кнопка -->
+  <button class="btn-spin">Испытай удачу</button>
+</div>
+<div class="container">
+  <h1>Баланс: <span id="balance">1000</span> рублей</h1>
+  <button class = 'btn1' id="addButton">Добавить 1000</button>
+  <button class = 'btn1' id="subtractButton">Убавить 1000</button>
+</div>
+<div class="betbutton">
+  <h1>Сделайте ставку</h1>
+  <input type="number" class="btn1" placeholder="Сумма ставки"/>
+  <p></p>
+  <input type="number" class="btn1" placeholder="Выберите на что ставить (цвет или число)"/>
+  <p></p>
+  <button class = 'btn1'>Депнуть</button>
+</div>
+  <!-- подключаем скрипт -->
+  <script src="script.js"></script>
+</body>
+</html>

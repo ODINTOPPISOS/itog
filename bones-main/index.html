@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра в кости</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Игра в кости</h1>
+        <button id="throwDiceButton">Бросить кость</button>
+        <div id="diceResult">Результат броска: 0</div>
+        
+        <!-- Добавляем место для изображения кубика -->
+        <div id="diceImage">
+            <img id="diceFace" src="https://c0.klipartz.com/pngpicture/425/86/gratis-png-juego-de-dados-kismet-dado-a-cuatro-caras-dados-1.png" alt="Dice face">
+        </div>
+
+        <table id="resultTable">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Результат</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Результаты будут отображаться здесь -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+    <img 
+    src="https://e7.pngegg.com/pngimages/141/66/png-clipart-hector-barbossa-piracy-anime-female-woman-pirate-people-fictional-character-thumbnail.png" 
+    alt="Пират слева" 
+    class="side-image left" 
+  />
+
+  <img 
+    src="https://e7.pngegg.com/pngimages/141/66/png-clipart-hector-barbossa-piracy-anime-female-woman-pirate-people-fictional-character-thumbnail.png" 
+    alt="Пират справа" 
+    class="side-image right" 
+  />
+
+</body>
+</html>
